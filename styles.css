@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+}
+
+.character {
+    width: 100%;
+}
+
+.eye-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.eye {
+    position: absolute;
+    width: 100%;
+}
+
+.eye-left {
+    top: 32%;
+    left: 1%; 
+}
+
+.eye-right {
+    top: 32%;
+}
